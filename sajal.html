@@ -1,0 +1,256 @@
+<!-- Boilerplate by using ! and enter -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for linking of css file to this html file use link tag -->
+    <link rel="stylesheet" href="sajal.css">
+    <title>Portfolio_web - Sajal Singhal</title>
+</head>
+<body class="body">
+
+
+
+    <!-- for navigation bar -->
+    <nav class="Nav_bar h-Nav_bar">
+        <!-- An unordered list starts with the <ul> tag. Each list item starts with the <li> tag. -->
+        <!-- An ordered list starts with the <ol> tag. Each list item starts with the <li> tag. -->
+        <!-- A description list is a list of terms, with a description of each term. -->
+        <!-- The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term: -->
+        <div class="logo"><img src="img/logos.jpg" alt="logo"><a href="#Logo"></a></div>
+        <!-- To give logo make a container  -->
+        <!-- src give path of image name and suppose if website not reload properly due to internet connection so alt attribute help to show text in place of image -->
+        <div class="text_holder"><a href="#Name">Sajal Singhal</a></div>
+        <ul class="Nav_list v-Nav_bar">
+            <!-- The <a> tag defines a hyperlink, which is used to link from one page to another. -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#follow_me">Follow Me</a></li>
+        </ul>
+        <div class="view_work_box v-Nav_bar">
+            <input type="button" onclick="parent.location= 'sajal_view_work.html'" class="view_work_btn_I"value="View Work">
+        </div>
+        <div class="menu_bar">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+
+    <section class="profile_window" id="home">
+        <div class="profile_left_box">
+
+        </div>
+        <div class="profile_center_box">
+            <p id="jumbo_description">A developer passionate about creating beautiful user friendly products</p>
+            <p id="little_description">Currently Working As Developer in <a href="#MI_sports">MI SPORTS</a>.
+                Member of Programming Department in <a href="">BEING ARTIFEX</a> Society in Indian Institution of Technology Dhanbad</p>
+        </div>
+        <div class="profile_right_box">
+        </div>
+    </section>
+    
+
+    <div class="view_work_box view_work_box_profile_window">
+        <input type="button" onclick="parent.location= 'sajal_view_work.html'" class="view_work_btn_II"value="View Work">
+    </div>
+
+
+    <h2 id="about">ABOUT</h2>
+    <div class="profile_description">
+        <div class="about_content_box"><img src="img/profile_image_2.jpg" alt="profile_image"></div>
+        <div class="about_content_wrap">
+            <p id="Hi_there">Hi There!</p>
+            <p id="Hi_there_content">Fully fuelled to learn new things. I have a deep desire to excel and continously improve in my work. Learn more about my journey below</p>
+        </div>
+    </div>
+
+    
+    <div class="my_carrer_journey">
+        <div class="my_carrer_so_far">
+            <p id="carrer_heading">My Carrer so far</p>
+            <p id="carrer_content">Always an Enthusiastic and Energetic.
+             I am Sajal study at IIT ( ISM ) Dhanbad in 2nd year of college pursuing Computer Science and Engineering.
+             Part of Programming club of Being Artifex socity. Love Manufacturing and desingning of products. I am currently working in my own start-up. </p>
+            <button type="button" onclick="window.open('resume_sajal.pdf','_blank')" class="Resumebtn">Resume</button>
+        </div>
+        <div class="my_achievments_template">
+            <div class="templates">PROGRAMMER</div>
+            <div class="templates">SOFTWARE DEVELOPER</div>
+            <div class="templates">GAME DEVELOPER</div>
+            <div class="templates">BRANDING</div>
+            <div class="templates">HTML / CSS</div>
+            <div class="templates">LEADERSHIP</div>
+            <div class="templates">MANAGEMENT QUALITIES</div>
+        </div>
+    </div>
+
+
+    <h2 id="contact">CONTACT</h2>
+    <div class="outer_Contact_content_box">
+        <div class="inner_Contact_content_box">
+            <div class="Contact_content_text">
+                Want to get in touch ?
+            </div>
+            <div class="Contact_content_form">
+                <form method="post" data-email="iamasinghal.sajal@gmail.com" action="https://script.google.com/macros/s/AKfycbwiMaEv51jp2JF-y_dAWJ4MHJ2uJCkmssHVQ4giAMeDU8xiZ--AYO04Eoal8yKqWZn9kA/exec">
+                    <label for="Name" class="contact_details_I">Name</label>
+                    <label for="Email" class="contact_details_II">Email Address</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+                    <label for="Message" class="contact_details_III">Message</label><br>
+                    <input type="text" id="message" name="text" placeholder="Enter your message">
+                    <input type="button" class="Submitbtn" name="btn" value="Submit">
+                    <!-- Thankyou_message --><br>
+                    <div class="thankyou_message" style="display:none;background:none;border:8px solid gray;border-radius: 40px;width: 400px;padding-top: 15px;padding-bottom: 40px;padding-left: 20px;padding-right: 20px;"><br><br>
+                        <h1>Thanks for contacting us!</h1>
+                        <h1>*******</h1>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 id="follow_me">FOLLOW ME</h2>
+    <div class="follow_me_content_box">
+        <div class="instagram">
+            <img src="img/Instagram_logo.jpeg" alt="Instagram_logo" id="Instagram_logo" class="img_logo"><a href="https://www.instagram.com/sajalhrx/" target="_blank">Instagram</a>
+        </div>
+        <div class="facebook">
+            <img src="img/Facebook_logo.jpeg" alt="Facebook_logo" id="Facebook_logo" class="img_logo"><a href="https://www.facebook.com/profile.php?id=100081625206712" target="_blank">Facebook</a>
+        </div>
+        <div class="linkedin">
+            <img src="img/Linkedin_logo.jpeg" alt="Linkedin_logo" id="Linkedin_logo" class="img_logo"><a href="https://www.linkedin.com/in/sajal-singhal-7b9b79224" target="_blank">Linkedin</a>
+        </div>
+        <div class="github">
+            <img src="img/Github_logo.jpeg" alt="Github_logo" id="Github_logo" class="img_logo"><a href="#Github_logo">Github</a>
+        </div>
+    </div>
+
+
+    <footer class="footer_content">
+        <p id="text_footer">
+            Copyright &copy; 2023 - www.Sajal_Singhal-Developer.com - All Rights Reserved
+        </p>
+    </footer>
+
+
+
+    <script data-cfasync="false" type="text/javascript">
+    
+        (function() {
+       function validEmail(email) {
+         var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+         return re.test(email);
+       }
+     
+       function validateHuman(honeypot) {
+         if (honeypot) {
+           console.log("Robot Detected!");
+           return true;
+         } else {
+           console.log("Welcome Human!");
+         }
+       }
+       function getFormData(form) {
+         var elements = form.elements;
+     
+         var fields = Object.keys(elements).filter(function(k) {
+               return (elements[k].name !== "honeypot");
+         }).map(function(k) {
+           if(elements[k].name !== undefined) {
+             return elements[k].name;
+           }else if(elements[k].length > 0){
+             return elements[k].item(0).name;
+           }
+         }).filter(function(item, pos, self) {
+           return self.indexOf(item) == pos && item;
+         });
+     
+         var formData = {};
+         fields.forEach(function(name){
+           var element = elements[name];
+           formData[name] = element.value;
+           if (element.length) {
+             var data = [];
+             for (var i = 0; i < element.length; i++) {
+               var item = element.item(i);
+               if (item.checked || item.selected) {
+                 data.push(item.value);
+               }
+             }
+             formData[name] = data.join(', ');
+           }
+         });
+     
+         // add form-specific values into the data
+         formData.formDataNameOrder = JSON.stringify(fields);
+         formData.formGoogleSheetName = form.dataset.sheet || "contactsheet"; // default sheet name
+         formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+     
+         console.log(formData);
+         return formData;
+       }
+     
+       function handleFormSubmit(event) {  
+         event.preventDefault();           
+         var form = event.target;
+         var data = getFormData(form);         
+         if( data.email && !validEmail(data.email) ) {   
+           var invalidEmail = form.querySelector(".email-invalid");
+           if (invalidEmail) {
+             invalidEmail.style.display = "block";
+             return false;
+           }
+         } else {
+           disableAllButtons(form);
+           var url = form.action;
+           var xhr = new XMLHttpRequest();
+           xhr.open('POST', url);
+           xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+           xhr.onreadystatechange = function() {
+               console.log(xhr.status, xhr.statusText);
+               console.log(xhr.responseText);
+               var formElements = form.querySelector(".form-elements")
+               if (formElements) {
+                 formElements.style.display = "none"; // hide form
+               }
+               var thankYouMessage = form.querySelector(".thankyou_message");
+               if (thankYouMessage) {
+                 thankYouMessage.style.display = "block";
+               }
+               return;
+           };
+           var encoded = Object.keys(data).map(function(k) {
+               return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+           }).join('&');
+           xhr.send(encoded);
+         }
+       }
+       
+       function loaded() {
+         console.log("Contact form submission handler loaded successfully.");
+         var forms = document.querySelectorAll("form.gform");
+         for (var i = 0; i < forms.length; i++) {
+           forms[i].addEventListener("submit", handleFormSubmit, false);
+         }
+       };
+       document.addEventListener("DOMContentLoaded", loaded, false);
+     
+       function disableAllButtons(form) {
+         var buttons = form.querySelectorAll("btn");
+         for (var i = 0; i < buttons.length; i++) {
+           buttons[i].disabled = true;
+         }
+       }
+     })();
+     
+     
+    </script>
+</body>
+</html>

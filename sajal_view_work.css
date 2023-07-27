@@ -1,0 +1,478 @@
+*
+{
+    margin: 1px;
+    padding: 2px;
+}
+    /* padding used to give relative space between elements  */
+    /* but width used to take relative space of whole container */
+
+/* whole body css */
+html
+{
+    scroll-behavior: smooth;
+}
+.body
+{
+    overflow: visible;
+    max-width: 100%;
+    background-color: #eeeff1;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+}
+/* end */
+
+/* whole navigation bar css */
+.Nav_bar
+{
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+.Nav_list
+{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    
+}
+.logo
+{
+    width: 10%;
+    /* display flex used to set all elements in horizontal order  */
+    display: flex;
+    /* justify-content used to align-items at center like logo img place at center of whole portion of div logo; */
+    justify-content: center;
+    /* background-color: blue; */
+}
+.logo img
+{
+    width: 33%;
+    border: 3px solid;
+    border-radius: 50px;
+}
+
+.text_holder
+{
+    width: 10%;
+    font-family: Bahnschrift; 
+    margin-top: 20px;
+}
+.text_holder a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Bahnschrift;
+}
+.Nav_list li
+{
+    /* (list-style - none ) used to remove dots, numbers etc before list elements */
+    list-style: none;
+    width: 8%;
+    margin-top: 20px;
+    text-align: center;
+}
+.Nav_list li a
+{
+    /* (text-decoration none) - used to remove underline below the list item */
+    text-decoration: none;
+    color: black;
+    font-family: Bahnschrift; 
+}
+    /* hover used when you go to particular li changes its properties  */
+.Nav_list li a:hover
+{
+    color: gray;
+}
+.view_work_box
+{
+    margin-top: 10px;
+    width: 9%;
+}
+.view_work_btn_I
+{
+    padding: 10px 5px 10px 5px;
+    border-radius: 9px;
+    background-color: black;
+    color: beige;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.Game_development
+{
+    /* background-color: yellow; */
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.Sudoku_Solver
+{
+    /* background-color: red; */
+    width: 50%;
+}
+#Sudoku_game
+{
+    font-size: 60px;
+}
+#Sudoku_description
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Sudoku_solver_image_box
+{
+    display: flex;
+    margin: 20px 0px 10px 150px;
+}
+.Sudoku_solver_image
+{
+    -webkit-box-shadow: 120px 29px 81px 0px rgba(218, 232, 234, 0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(229, 246, 248, 0.75);
+    box-shadow: 12px 29px 81px 0px rgba(216, 231, 238, 0.75);
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+.Source_code_btn
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Source_code_btn:hover
+{
+    background-color: black;
+    color:bisque;
+}
+.Source_code_btn:active
+{
+    background-color: none;
+    color: black;
+}
+
+
+
+.Game_development
+{
+    /* background-color: yellow; */
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.Snake_Game
+{
+    /* background-color: red; */
+    width: 50%;
+}
+#Snake
+{
+    font-size: 60px;
+}
+#Snake_description
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Snake_Game_image_box
+{
+    display: flex;
+    margin: 20px 0px 10px 150px;
+}
+.Snake_Game_image
+{
+    -webkit-box-shadow: 120px 29px 81px 0px rgba(218, 232, 234, 0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(229, 246, 248, 0.75);
+    box-shadow: 12px 29px 81px 0px rgba(216, 231, 238, 0.75);
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+.Source_code_btn
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Source_code_btn:hover
+{
+    background-color: black;
+    color:bisque;
+}
+.Source_code_btn:active
+{
+    background-color: none;
+    color: black;
+}
+
+
+
+
+.Game_development
+{
+    /* background-color: yellow; */
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.Tic_Tac_Toe_Game
+{
+    /* background-color: red; */
+    width: 50%;
+}
+#Tic_Tac_Toe
+{
+    font-size: 60px;
+}
+#Tic_Tac_Toe_description
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Tic_Tac_Toe_image_box
+{
+    display: flex;
+    margin: 20px 0px 10px 150px;
+}
+.Tic_Tac_Toe_image
+{
+    -webkit-box-shadow: 120px 29px 81px 0px rgba(218, 232, 234, 0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(229, 246, 248, 0.75);
+    box-shadow: 12px 29px 81px 0px rgba(216, 231, 238, 0.75);
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+.Source_code_btn
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Source_code_btn:hover
+{
+    background-color: black;
+    color:bisque;
+}
+.Source_code_btn:active
+{
+    background-color: none;
+    color: black;
+}
+
+
+
+
+.Sketch_development
+{
+    /* background-color: yellow; */
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.Doremon_Sketch
+{
+    /* background-color: red; */
+    width: 50%;
+}
+#Doremon
+{
+    font-size: 60px;
+}
+#Doremon_description
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Doremon_Sketch_image_box
+{
+    display: flex;
+    margin: 20px 0px 10px 150px;
+}
+.Doremon_Sketch_image
+{
+    -webkit-box-shadow: 120px 29px 81px 0px rgba(218, 232, 234, 0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(229, 246, 248, 0.75);
+    box-shadow: 12px 29px 81px 0px rgba(216, 231, 238, 0.75);
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
+.Source_code_btn
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Source_code_btn:hover
+{
+    background-color: black;
+    color:bisque;
+}
+.Source_code_btn:active
+{
+    background-color: none;
+    color: black;
+}
+
+
+
+.Non_Gaming_development
+{
+    /* background-color: yellow; */
+    margin-top: 180px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.Alarm_Clock
+{
+    /* background-color: red; */
+    width: 50%;
+}
+#Alarm
+{
+    font-size: 60px;
+}
+#Alarm_description
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.Alarm_Clock_image_box
+{
+    display: flex;
+    margin: 20px 0px 10px 150px;
+}
+.Alarm_Clock_image
+{
+    -webkit-box-shadow: 120px 29px 81px 0px rgba(218, 232, 234, 0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(229, 246, 248, 0.75);
+    box-shadow: 12px 29px 81px 0px rgba(216, 231, 238, 0.75);
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.Source_code_btn
+{
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 3px solid black;
+    border-radius: 15px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.Source_code_btn:hover
+{
+    background-color: black;
+    color:bisque;
+}
+.Source_code_btn:active
+{
+    background-color: none;
+    color: black;
+}
+
+@media only screen and (max-width: 1399px)
+{
+    .Nav_bar
+    {
+        background-color: yellow;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .Nav_list
+    {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo img
+    {
+        width: 116%;
+    }
+    .text_holder
+    {
+        font-size: 37px;
+        width: 100%;
+        text-align: center;
+    }
+    .Nav_list li 
+    {
+        width: 100%;
+        font-size: 33px;
+    }
+    .view_work_box
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .Game_development
+    {
+        margin-top: 100px;
+    }
+}
